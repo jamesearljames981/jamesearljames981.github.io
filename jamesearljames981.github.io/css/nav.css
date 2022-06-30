@@ -1,0 +1,47 @@
+﻿body {
+    font-family: Calibri;
+    line-height:1.7;
+}
+
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: ghostwhite;
+    font-size: 20px;
+    font-family: Calibri;
+    line-height: 70px;
+    padding: 0 40px;
+    font-weight: bold;
+}
+
+.menu{
+    background-color: gold;
+    float: left;
+    margin-left: 40px;
+}
+
+    .link { 
+        display: inline-block;
+        line-height: 40px;
+        margin: 0 2px;
+    }
+
+        .link ul li a {text-decoration-color:white;
+            font-size:17px;
+            border-radius: 3px;
+            padding:7px 13px;
+            text-transform: uppercase;
+      
+        }
+a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+.modal:hover {
+background:#3333;
+transition: .5s;
+}
